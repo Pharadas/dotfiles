@@ -74,7 +74,7 @@ require("mason").setup({
         -- Width of the window. Accepts:
         -- - Integer greater than 1 for fixed width.
         -- - Float in the range of 0-1 for a percentage of screen width.
-        width = 0.8,
+        width = 0.9,
 
         ---@since 1.0.0
         -- Height of the window. Accepts:

@@ -1,3 +1,11 @@
-vim.cmd.colorscheme("onedarkhc")
+vim.cmd.colorscheme("github_dark_dimmed")
 vim.api.nvim_set_hl(0, "Normal", {bg = "none"})
+vim.api.nvim_set_hl(0, "NeoTreeNormal", {bg = "none"})
+vim.api.nvim_set_hl(0, "NeoTreeNormalNC", {bg = "none"})
 vim.api.nvim_set_hl(0, "NormalFloat", {bg = "none"})
+vim.api.nvim_set_hl(0, "NormalFloat", {bg = "none"})
+vim.api.nvim_set_hl(0, "FloatBorder", {bg = "#ff0000", fg = "#ff0000"})
+
+vim.api.nvim_set_hl(0, "WhichKey", {bg = "none"})
+vim.api.nvim_set_hl(0, "WhichKeyFloat", {bg = "none"})
+vim.api.nvim_set_hl(0, "WhichKeyBorder", {bg = "#ff0000", fg = "#ff0000"})

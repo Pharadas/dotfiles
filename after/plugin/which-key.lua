@@ -9,6 +9,14 @@ wk.register({
             s = {vim.cmd.Git, "Git"}
         },
 
+        z = {
+            name = "Folds",
+            R = {"Open all folds"},
+            M = {"Close all folds"},
+            r = {"Open folds within"},
+            m = {"Close folds within"}
+        },
+
         h = {
             name = "Harpoon",
             a = {harpoon_mark.add_file, "Add file to harpoon"},
@@ -22,10 +30,11 @@ wk.register({
             -- s = {"Signature help"},
             v = {
                 name = "View",
-                h = {"Workspace symbols"},
-                d = {"File diagnostics"},
+                s = {"Workspace symbols"},
+                e = {"File diagnostics"},
                 a = {"Code actions"},
-                r = {"References"}
+                r = {"References"},
+                d = {"Definitions"}
             }
         },
 
